@@ -1,6 +1,6 @@
 <?php
 
-namespace JeroenG\Packager\Commands;
+namespace LaravelRussian\Packager\Commands;
 
 use Illuminate\Console\Command;
 use SensioLabs\Security\Formatters\SimpleFormatter;
@@ -9,7 +9,7 @@ use SensioLabs\Security\SecurityChecker;
 /**
  * List all locally installed packages.
  *
- * @author JeroenG
+ * @author LaravelRussian
  **/
 class CheckPackage extends Command
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace JeroenG\Packager\Commands;
+namespace LaravelRussian\Packager\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
@@ -8,7 +8,7 @@ use Illuminate\Filesystem\Filesystem;
 /**
  * Move the packages tests to the Laravel app tests folder.
  *
- * @author JeroenG
+ * @author LaravelRussian
  **/
 class MoveTests extends Command
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace JeroenG\Packager;
+namespace LaravelRussian\Packager;
 
 use GuzzleHttp\Client;
-use JeroenG\Packager\ArchiveExtractors\Manager;
+use LaravelRussian\Packager\ArchiveExtractors\Manager;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
 use RuntimeException;

@@ -1,6 +1,6 @@
 <?php
 
-namespace JeroenG\Packager;
+namespace LaravelRussian\Packager;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\ServiceProvider;
@@ -9,9 +9,9 @@ use Illuminate\Support\ServiceProvider;
  * This is the service provider.
  *
  * Place the line below in the providers array inside app/config/app.php
- * <code>'JeroenG\Packager\PackagerServiceProvider',</code>
+ * <code>'LaravelRussian\Packager\PackagerServiceProvider',</code>
  *
- * @author JeroenG
+ * @author LaravelRussian
  **/
 class PackagerServiceProvider extends ServiceProvider
 {
@@ -21,16 +21,16 @@ class PackagerServiceProvider extends ServiceProvider
      * @var bool
      */
     protected $commands = [
-        'JeroenG\Packager\Commands\NewPackage',
-        'JeroenG\Packager\Commands\RemovePackage',
-        'JeroenG\Packager\Commands\GetPackage',
-        'JeroenG\Packager\Commands\GitPackage',
-        'JeroenG\Packager\Commands\ListPackages',
-        'JeroenG\Packager\Commands\MoveTests',
-        'JeroenG\Packager\Commands\CheckPackage',
-        'JeroenG\Packager\Commands\PublishPackage',
-        'JeroenG\Packager\Commands\EnablePackage',
-        'JeroenG\Packager\Commands\DisablePackage',
+        'LaravelRussian\Packager\Commands\NewPackage',
+        'LaravelRussian\Packager\Commands\RemovePackage',
+        'LaravelRussian\Packager\Commands\GetPackage',
+        'LaravelRussian\Packager\Commands\GitPackage',
+        'LaravelRussian\Packager\Commands\ListPackages',
+        'LaravelRussian\Packager\Commands\MoveTests',
+        'LaravelRussian\Packager\Commands\CheckPackage',
+        'LaravelRussian\Packager\Commands\PublishPackage',
+        'LaravelRussian\Packager\Commands\EnablePackage',
+        'LaravelRussian\Packager\Commands\DisablePackage',
     ];
 
     /**

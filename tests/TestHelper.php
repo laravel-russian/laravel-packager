@@ -1,6 +1,6 @@
 <?php
 
-namespace JeroenG\Packager\Tests;
+namespace LaravelRussian\Packager\Tests;
 
 use Illuminate\Contracts\Console\Kernel;
 use Illuminate\Filesystem\Filesystem;

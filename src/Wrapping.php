@@ -1,6 +1,6 @@
 <?php
 
-namespace JeroenG\Packager;
+namespace LaravelRussian\Packager;
 
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;

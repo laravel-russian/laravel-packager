@@ -1,19 +1,19 @@
 <?php
 
-namespace JeroenG\Packager\Commands;
+namespace LaravelRussian\Packager\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Validation\Validator as ValidatorInterface;
 use Illuminate\Support\Facades\Validator;
-use JeroenG\Packager\Conveyor;
-use JeroenG\Packager\ProgressBar;
-use JeroenG\Packager\ValidationRules\ValidClassName;
-use JeroenG\Packager\Wrapping;
+use LaravelRussian\Packager\Conveyor;
+use LaravelRussian\Packager\ProgressBar;
+use LaravelRussian\Packager\ValidationRules\ValidClassName;
+use LaravelRussian\Packager\Wrapping;
 
 /**
  * Create a brand new package.
  *
- * @author JeroenG
+ * @author LaravelRussian
  **/
 class NewPackage extends Command
 {
@@ -36,14 +36,14 @@ class NewPackage extends Command
     /**
      * Packages roll off of the conveyor.
      *
-     * @var object \JeroenG\Packager\Conveyor
+     * @var object \LaravelRussian\Packager\Conveyor
      */
     protected $conveyor;
 
     /**
      * Packages are packed in wrappings to personalise them.
      *
-     * @var object \JeroenG\Packager\Wrapping
+     * @var object \LaravelRussian\Packager\Wrapping
      */
     protected $wrapping;
 

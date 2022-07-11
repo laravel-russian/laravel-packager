@@ -1,17 +1,17 @@
 <?php
 
-namespace JeroenG\Packager\Commands;
+namespace LaravelRussian\Packager\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
-use JeroenG\Packager\Conveyor;
-use JeroenG\Packager\ProgressBar;
-use JeroenG\Packager\Wrapping;
+use LaravelRussian\Packager\Conveyor;
+use LaravelRussian\Packager\ProgressBar;
+use LaravelRussian\Packager\Wrapping;
 
 /**
  * Get an existing package from a remote git repository with its VCS.
  *
- * @author JeroenG
+ * @author LaravelRussian
  **/
 class GitPackage extends Command
 {
@@ -37,14 +37,14 @@ class GitPackage extends Command
     /**
      * Packages roll off of the conveyor.
      *
-     * @var object \JeroenG\Packager\Conveyor
+     * @var object \LaravelRussian\Packager\Conveyor
      */
     protected $conveyor;
 
     /**
      * Packages are packed in wrappings to personalise them.
      *
-     * @var object \JeroenG\Packager\Wrapping
+     * @var object \LaravelRussian\Packager\Wrapping
      */
     protected $wrapping;
 

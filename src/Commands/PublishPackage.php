@@ -1,15 +1,15 @@
 <?php
 
-namespace JeroenG\Packager\Commands;
+namespace LaravelRussian\Packager\Commands;
 
 use Illuminate\Console\Command;
-use JeroenG\Packager\Conveyor;
-use JeroenG\Packager\ProgressBar;
+use LaravelRussian\Packager\Conveyor;
+use LaravelRussian\Packager\ProgressBar;
 
 /**
  * Get an existing package from a remote Github repository with its git repository.
  *
- * @author JeroenG
+ * @author LaravelRussian
  **/
 class PublishPackage extends Command
 {
@@ -35,7 +35,7 @@ class PublishPackage extends Command
     /**
      * Packages roll off of the conveyor.
      *
-     * @var object \JeroenG\Packager\Conveyor
+     * @var object \LaravelRussian\Packager\Conveyor
      */
     protected $conveyor;
 

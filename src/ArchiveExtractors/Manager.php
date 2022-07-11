@@ -1,6 +1,6 @@
 <?php
 
-namespace JeroenG\Packager\ArchiveExtractors;
+namespace LaravelRussian\Packager\ArchiveExtractors;
 
 use Illuminate\Support\Arr;
 use InvalidArgumentException;

@@ -1,6 +1,6 @@
 <?php
 
-namespace JeroenG\Packager\Tests;
+namespace LaravelRussian\Packager\Tests;
 
 use Illuminate\Support\Facades\Artisan;
 
@@ -87,7 +87,7 @@ class IntegratedTest extends TestCase
         Artisan::call('packager:new', [
             'vendor' => 'AnotherVendor',
             'name' => 'AnotherPackage',
-            '--skeleton' => 'http://github.com/Jeroen-G/packager-skeleton/archive/master.zip',
+            '--skeleton' => 'http://github.com/laravel-russian/packager-skeleton/archive/master.zip',
         ]);
 
         $composer = file_get_contents(base_path('composer.json'));
@@ -98,7 +98,7 @@ class IntegratedTest extends TestCase
     public function test_get_package()
     {
         Artisan::call('packager:get',
-            ['url' => 'https://github.com/Jeroen-G/packager-skeleton', 'vendor' => 'MyVendor', 'name' => 'MyPackage']);
+            ['url' => 'https://github.com/laravel-russian/packager-skeleton', 'vendor' => 'MyVendor', 'name' => 'MyPackage']);
 
         $this->seeInConsoleOutput('Package downloaded successfully!');
     }

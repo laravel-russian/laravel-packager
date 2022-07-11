@@ -1,6 +1,6 @@
 <?php
 
-namespace JeroenG\Packager\ValidationRules;
+namespace LaravelRussian\Packager\ValidationRules;
 
 use Illuminate\Contracts\Validation\Rule;
 

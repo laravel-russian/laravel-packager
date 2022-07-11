@@ -1,6 +1,6 @@
 <?php
 
-namespace JeroenG\Packager\Tests;
+namespace LaravelRussian\Packager\Tests;
 
 use Orchestra\Testbench\TestCase as TestBench;
 
@@ -50,6 +50,6 @@ abstract class TestCase extends TestBench
      */
     protected function getPackageProviders($app)
     {
-        return ['JeroenG\Packager\PackagerServiceProvider'];
+        return ['LaravelRussian\Packager\PackagerServiceProvider'];
     }
 }
